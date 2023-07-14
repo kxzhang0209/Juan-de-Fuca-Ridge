@@ -14,3 +14,8 @@ Please put your chosen thermal models in ./jdf/geotherm if you want to use Q_vs_
 
 In ./gmtplot:
 File *.sh is written to plot different pictures with GMT. Since I was a white hand when I wrote these codes, I would suggest you write your own codes to plot rather than spending time understanding mine.
+
+In ./thermal
+File MOR06.prm is the source code to produce numerical model of JDF.
+./output contains some selected solutions. What we wanted was the stable (final) state of the model.
+./aspect_melt has some outloaded data from output.
